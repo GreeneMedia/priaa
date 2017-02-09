@@ -1,0 +1,617 @@
+{
+  "settings": {
+    "name": "PRIAA MOCKUP",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "directm",
+      "title": "DirectM",
+      "styling": {
+        "primaryColor": "#bb412e",
+        "secondaryColor": "#A25DAE",
+        "successColor": "#1E7C3A",
+        "infoColor": "#000000",
+        "warningColor": "#FFD785",
+        "dangerColor": "#FF9685",
+        "titleFont": "Oxygen",
+        "subtitleFont": "Libre Franklin",
+        "textFont": "Libre Franklin",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": false,
+        "isScrollToTopButton": false
+      }
+    },
+    "versionFirst": "3.10.3",
+    "uniqCompNum": 25,
+    "versionPublish": "3.11.1",
+    "favicon": "@PROJECT_PATH@/assets/images/prialogoedited-352x128-48-copy-128x150.png",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "google-analytics": ""
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#000000"
+            },
+            ".link, .dropdown-item": {
+              "color": "#000000",
+              "font-family": "'Libre Franklin', serif"
+            },
+            ".link": {
+              "font-size": "0.8125rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.880rem"
+            },
+            ".link:hover, .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".dropdown-item:hover::before, .dropdown-item:focus::before": {
+              "background": "@primaryColor"
+            },
+            ".dropdown-item:hover, .dropdown-item:focus": {
+              "color": "#000000"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#fff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#000000",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#bb412e!important"
+            }
+          },
+          "buttons": "<a class=\"btn btn-info\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type text\">Download now</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu1",
+          "_anchor": "menu1-0",
+          "_params": {
+            "bgColor": "#fff",
+            "fontSize": 0.8125,
+            "imageSize": 4,
+            "fontName": {
+              "name": "Libre Franklin",
+              "css": "'Libre Franklin', serif",
+              "link": "https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,600,600i"
+            },
+            "fontColor": "#000000",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/prialogoedited-352x128-48-copy-109x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PRIAA CAPITAL FINANCE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\">HOME</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-i\">PROGRAMS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content3-l\">APPLY</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#toggle1-d\">FAQ</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#share1-m\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary btn-lg btn\" href=\"http://applications.priaa.com/members/login\">PARTNER LOGIN</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_styles": {
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            },
+            ".heading-title": {
+              "font-size": "80px"
+            }
+          },
+          "_anchor": "header4-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/04.jpg",
+            "bgColor": "#bdb39a",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.3",
+            "overlayColor": "#000000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": true
+          },
+          "title": "Bankable Terms for <br>Un-Bankable Borrowers",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md btn-primary\" href=\"index.html#content3-l\" data-toolbar=\"-mbrBtnMove\">APPLY TODAY</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "2",
+            "bgColor": "#efe9e9",
+            "showMeta": true
+          },
+          "title": "PRIAA Capital Finance\n",
+          "meta": "Lending Made Easy&nbsp;<br>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-j",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#efe9e9"
+          },
+          "text": "<h3>What is PRIAA Capital Finance? </h3><br>\nWe are a nationwide lending partner in the small business and real estate space that offers a wide variety of financial solutions and loan programs. Our mission is to help our customers get the capital they need to move forward with their unique small business or real estate investing goals. &nbsp;<br>"
+        },
+        {
+          "subtitle1": "Awesome",
+          "subtitle2": "Awesome",
+          "subtitle3": "Awesome",
+          "subtitle4": "Awesome",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features13",
+          "_styles": {
+            ".mbr-iconfont": {
+              "color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            ".card-text": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "features13-k",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "contentAlign": "center",
+            "iconsBgColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/02.jpg",
+            "bgColor": "#efe9e9",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.95,
+            "overlayColor": "#fffffd",
+            "showHeading": false,
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "columns": "2",
+            "showFeaturesImages": false,
+            "showFeaturesTitles": false,
+            "showFeaturesTexts": true,
+            "showFeaturesButtons": false
+          },
+          "title": "Always on your terms",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "touch",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title1": "What is Mobirise",
+          "text1": "<b>Small Business Loans </b><br>\n<br>If you are a small business owner, contact PRIAA Capital Finance today. Our special partnerships allow us to tailor loans to fit the needs of your small business. These special financing programs are available for new business development, acquisition and operational expansion. \n",
+          "button1": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont",
+              "linkInNewWindow": false,
+              "name": "responsive",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "#top",
+              "newWindow": false
+            }
+          },
+          "title2": "What is Mobirise",
+          "text2": "<b>Real Estate Investor</b>\n<br><br>PRIAA Capital Finance understands the benefits of owning and investing in real estate, whether it be tax advantages, controlling overhead costs or asset appreciation. We have the expertise needed to help you build your business through real estate acquisition and we offer loans for purchase or refinance and will help make the real estate investing finance process simple. \n",
+          "button2": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "setting",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title3": "What is Mobirise",
+          "text3": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button3": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>",
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont",
+              "name": "hot-cup",
+              "link": "https://mobirise.com",
+              "family": "MobiriseIcons"
+            }
+          },
+          "title4": "What is Mobirise",
+          "text4": "Mobirise is an offline app for Window and Mac to easily create small/medium websites, landing pages, online resumes and portfolios, promo sites for apps, events, services and products.",
+          "button4": "<a data-app-btn=\"true\" class=\"btn btn-sm btn-primary\" href=\"https://mobirise.com\">Learn more</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content3",
+          "_anchor": "content3-l",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgColor": "#fff",
+            "showMeta": false
+          },
+          "title": "PRIAA CAPITAL FINANCE APPLICATION",
+          "meta": "By <b>John Smith</b> posted July 20, 2016"
+        },
+        {
+          "_customTemplate": true,
+          "_afterNavbarItem": false,
+          "_customHTML": "<div align=\"center\">\n{JS_CODE_0}\n</div>",
+          "_customCSS": "/* Type valid CSS here */\n.my-image {\n  width: 100%;\n}",
+          "alias": "code-editor",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "pro.custom-html",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script src=\"https://f.formoid.net/BjM.js\"></script>"
+          ],
+          "_anchor": "custom-html-h"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "toggle1",
+          "_styles": {
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "toggle1-d",
+          "_params": {
+            "tabs": "6",
+            "collapseAll": true,
+            "paddingTop": 2,
+            "paddingBottom": "0",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true
+          },
+          "title": "FAQs",
+          "text": "Listed here are the most commonly asked questions about who we are and how we operate. If you have a question that is not found here, please do not hesitate to contact us and we will be happy to address it.",
+          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Is PRIAA CAPITAL FINANCE a lender or a broker?</a>",
+          "text1": "<p>PRIAA CAPITAL FINANCE is a licensed lender and broker under California Finance Lenders License # 603 L334. PRIAA CAPITAL FINANCE funds non-conforming commercial, residential investment and business loans in markets nationwide. PRIAA CAPITAL FINANCE also functions as a correspondent and preferred origination point for a small group of banks, institutional lenders, investment funds and private finance companies. In states where PRIAA CAPITAL FINANCE is not licensed as a mortgage lender or mortgage broker (and licensing is required), PRIAA CAPITAL FINANCE acts strictly as a loan packager for, or a referral source to, those entities licensed to lend.</p>",
+          "title2": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-d\" aria-expanded=\"false\" aria-controls=\"collapseTwo\">Why should I work with PRIAA CAPITAL FINANCE over other lenders?</a>",
+          "text2": "<p>If you are a broker or borrower looking for financing in this market, you know the process can be difficult and painstaking. The loan programs SECC offers are genuine, competitive (or more than competitive), and they perform. We handle the heavy lifting so that you can focus your efforts on what’s most important to you. We also offer approved partners fee incentives and provide a variety of marketing tools and support.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseThree\">Does PRIAA CAPITAL FINANCE charge upfront fees?</a>",
+          "text3": "<p>Once PRIAA CAPITAL FINANCE has analyzed a loan submission and determined its eligibility for financing, a Letter of Interest (LOI) is issued. Upon acceptance and signing of the LOI, the borrower will be required to pay a non-refundable underwriting and/or appraisal fee ranging from $0.00 to $1,995.00 depending on the loan size and complexity of the transaction. Refunds will not be issued on transactions that do not close because of borrower/broker misrepresentation, cancellation, delays, inability to meet documentation or information requests, omission or fraud, or due to adverse results of third-party reports. A previously submitted underwriting or appraisal fee will be returned only in the event that a loan does not close due to PRIAA CAPITAL FINANCE error or failure to perform as outlined in the LOI.</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Does PRIAA CAPITAL FINANCE charge loan points and/or fees at closing?</a>",
+          "text4": "<p>In most situations, PRIAA CAPITAL FINANCE is compensated directly by our investors or from the sale of our loans, thus we do not ordinarily charge the borrower any excessive points or fees. We will always provide a fee quote upfront upon request so there are no surprises for the broker or borrower.</p>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFivetoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseFive\">How long does it take to close a loan with PRIAA CAPITAL FINANCE?</a>",
+          "text5": "<p>Our private money business loans close in as fast as 1-5 days. It takes approximately 2-3 weeks to close a non-conforming commercial or non-owner occupied residential loan transaction. SBA transactions can take anywhere from 60-120 days.</p>",
+          "title6": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSixtoggle1-d\" aria-expanded=\"true\" aria-controls=\"collapseSix\">Does PRIAA CAPITAL FINANCE issue forward commitments?</a>",
+          "text6": "<p>No. A loan commitment will never be issued for your transaction unless it is presently ready for closing and funding.</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "toggle1",
+          "_anchor": "toggle1-g",
+          "_params": {
+            "tabs": "4",
+            "collapseAll": true,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/_background/accordion1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": false,
+            "showText": false
+          },
+          "title": "Toggle FAQ",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae nostrum quis ab, fuga ducimus, eligendi facere atque provident tempore vitae, cupiditate fugit explicabo. Nostrum quidem itaque blanditiis maxime, perferendis numquam ab a exercitationem impedit repellat, voluptate sunt! Veritatis, nam.",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseOnetoggle1-g\" aria-expanded=\"false\" aria-controls=\"collapseOne\"><span class=\"sign\"></span>Does PRIAA CAPITAL FINANCE offer loan programs outside of the United States?</a>",
+          "text1": "<p>We offer loan programs in all 50 states, and most domestic primary, secondary and tertiary U.S. markets. We do not offer any loan programs in any other countries, other than Canada via our private business financing program.</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseTwotoggle1-g\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">What collateral will PRIAA CAPITAL FINANCE lend against?</a>",
+          "text2": "<p>Only commercial real estate, 1 to 4 unit non-owner occupied residential properties held (or to be acquired) for investment or business purposes, businesses and business assets are eligible for financing under our programs. We do not offer financing on owner occupied residential properties, securities or any other types of collateral.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseThreetoggle1-g\" aria-expanded=\"true\" aria-controls=\"collapseThree\">How do I get approved as a partner with PRIAA CAPITAL FINANCE?</a>",
+          "text3": "<p>Contact us or your PRIAA CAPITAL FINANCE account executive to let us know that you would like to be set up as a partner, and we will forward the broker registration package necessary for your approval. There is no cost to register but you must pass a background check screening.</p>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFourtoggle1-g\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Are mortgage brokers or third parties ever considered representatives, partners, agents or employees of PRIAA CAPITAL FINANCE?</a>",
+          "text4": "<p>No. No entity or individual other than PRIAA CAPITAL FINANCE’s sole principal, Noah Grayson, has any authority to make statements, representations, negotiate terms of a letter of interest or accept payments on behalf ofPRIAA CAPITAL FINANCE. PRIAA CAPITAL FINANCE has no subsidiaries, partners, parent companies or agents, and only those individuals listed on the PRIAA CAPITAL FINANCE website and who have a southendcapital.com email extension and PRIAA CAPITAL FINANCE phone number, are authorized to transact business for PRIAA CAPITAL FINANCE. Any third parties found to be making claims of affiliation with PRIAA CAPITAL FINANCE, or representations on behalf of PRIAA CAPITAL FINANCE, will be viewed as having committed fraud and be prosecuted to the fullest extent of the law. If you feel you have encountered individuals or entities committing such fraud or falsely identifying themselves as connected to PRIAA CAPITAL FINANCE, please contact Noah Grayson immediately at noah@southendcapital.com or (888) 268-7778 x 5.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#accordion\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "margin-bottom": "1rem",
+              "color": "#fff"
+            },
+            ".mbr-iconfont": {},
+            ".mbr-table-cell": {
+              "vertical-align": "middle"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content7",
+          "_anchor": "content7-b",
+          "_params": {
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/content7.jpg",
+            "bgColor": "#2d2d2d",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#2d2d2d",
+            "contentAlign": "left",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Careers",
+          "text": "PRIAA CAPITAL FINANCE is seeking dedicated, personable and self-starting professionals to join our growing team. If you possess the skills necessary to originate and develop a robust loan pipeline and promptly and courteously attend to clients, or are an experienced and proficient processor or underwriter, we’d love to hear from you: careers@southendcapital.com",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://mobirise.com\">Watch Demo</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "share1",
+          "_anchor": "share1-m",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#fff",
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "vkontakte": false,
+            "odnoklassniki": false
+          },
+          "text": "Share this page!"
+        },
+        {
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">GET STARTED</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_styles": {
+            ".heading": {
+              "background": "#5aac98"
+            },
+            ".form-title": {
+              "color": "#fffffd"
+            }
+          },
+          "_anchor": "form2-e",
+          "_params": {
+            "formBg": "#5aac98",
+            "paddingTop": "4",
+            "paddingBottom": 1,
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/full-unsplash-photo-1468497123556-d09d1953db0d-2000x1333-75.jpg",
+            "bgColor": "#fffffd",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=fwkKc6M60-0"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#616161",
+            "showHeading": true,
+            "showTitle": true,
+            "showText": false,
+            "formHeader": true,
+            "showCheckbox": false
+          },
+          "title": "CONTACT US",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, sed iusto corrupti explicabo. Dignissimos, harum. Adipisci dolorem odit minima assumenda nostrum quam nihil, iusto, ad eligendi laudantium doloribus eius reiciendis.",
+          "form": {
+            "action": "studiomilesanthony@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "header": "5851 Legacy Circle, Suite 600<div>Plano, Texas   75024</div><div>Office:  469.626.5300 | Fax:  972.534.1325 | info@priaa.com</div>",
+          "checkbox": "I agree to the <a href=\"http://mobirise.com\">terms</a>",
+          "buttons1": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-lg btn-primary\">Send message</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "share2",
+          "_anchor": "share2-o",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgImageRadio": false,
+            "parallax": false,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.9,
+            "overlayColor": "#fff"
+          },
+          "text": "469.626.5300",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary-outline\" href=\"tel:469.626.5300\" data-toolbar=\"-mbrBtnMove\">Call us</a>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://tumblr.com/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-tumblr\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a> "
+        },
+        {
+          "_styles": {
+            "p": {
+              "color": "#000"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer4",
+          "_anchor": "footer4-f",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/header/01.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 PRIAA CAPITAL FINANCE."
+        }
+      ]
+    }
+  }
+}
